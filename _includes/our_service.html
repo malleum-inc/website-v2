@@ -1,0 +1,30 @@
+
+		<!-- our service area start here	 -->
+		<div class="our-service-area pt-112 pb-112">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-title text-center">
+							<span>{{ site.our_service_tangline }}</span>
+							<h2>{{ site.our_service_title }}</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					{% for item in site.our_service %}
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="single-service">
+							<div class="media">
+								<div class="service-icon mr-3"> <i class="{{ item.icon }} text-gradient2"></i></div>
+								<div class="media-body">
+									<h3 class="mt-0"><a href="{{ item.url }}">{{ item.name }}</a></h3>
+									<p>{{ item.text }}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<!-- our service area end here	 -->

@@ -1,0 +1,32 @@
+
+		<!-- services area start here -->
+		<div class="services-area section-bottom pt-112">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-title text-center">
+							<span>{{ site.service_title }}</span>
+							<h2>{{ site.service_description }}</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					{% for item in site.service %}
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="single-service text-center">
+							<div class="service-icon">
+								<i class="{{ item.icon }} text-gradient"></i>
+							</div>
+							<div class="service-title">
+								<h3>C{{ item.name }}</h3>
+							</div>
+							<div class="service-content">
+								<p>{{ item.text }}</p>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<!-- services area end here -->

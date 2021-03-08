@@ -1,0 +1,42 @@
+		<!-- testimonial area start here		 -->
+		<div class="testimonial-area pb-112 pt-112">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="testimonial-info">
+							<div class="sub-title">
+								<span>{{ site.testimonial-sub-title }}</span>
+							</div>
+							<div class="title">
+								<h2>{{ site.testimonial-title }}</h2>
+							</div>
+							<div class="description">
+								<p>{{ site.testimonial-description }}</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="testimonial-slide">
+							{% for testimonial in site.testimonials %}
+							<div class="single-testimonial">
+								<div class="testimonial-inner">
+									<div class="testimonial-info">
+										<div class="catagory-title">
+											<a href="#">{{ testimonial.catagory }}</a>
+										</div>
+										<div class="testimonial-title">
+											<h3><a href="#">{{ testimonial.title }}</a></h3>
+										</div>
+										<div class="testimonial-content">
+											<p>{{ testimonial.quotes }}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- testimonial area end here		 -->

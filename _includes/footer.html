@@ -1,0 +1,78 @@
+
+		<!-- footer area start here -->
+		<footer class="footer-area">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="footer-widget">
+								<div class="widget-title">
+									<h2>{{ site.footer_title }}</h2>
+								</div>
+								<div class="widget-text">
+									<p>{{ site.footer_description }}</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 pl-60">
+							<div class="row">
+								<div class="col-lg-4 col-sm-4">
+									<div class="footer-widget">
+										<div class="widget-title">
+											<h2>{{ site.footer_menu_col1_title }}</h2>
+										</div>
+										<div class="widget-menu">
+											<ul>
+												{% for item in site.footer_menu_col1 %}
+												<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+												{% endfor %}
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-4">
+									<div class="footer-widget">
+										<div class="widget-title">
+											<h2>{{ site.footer_menu_col2_title }}</h2>
+										</div>
+										<div class="widget-menu">
+											<ul>
+												{% for item in site.footer_menu_col2 %}
+												<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+												{% endfor %}
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-4">
+									<div class="footer-widget">
+										<div class="widget-title">
+											<h2>{{ site.footer_menu_col3_title }}</h2>
+										</div>
+										<div class="widget-menu">
+											<ul>
+												{% for item in site.footer_menu_col3 %}
+												<li><a href="{{ item.url }}">{{ item.text }}</a></li>
+												{% endfor %}
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="copyright-area text-center">
+								<p>Made With Love <a href="#">{{ site.name }}</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer area end here -->

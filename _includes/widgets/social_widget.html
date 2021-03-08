@@ -1,0 +1,12 @@
+<div class="single-widget social_widget">
+	<div class="widget-title">
+		<h2><span>Follow Us</span></h2>
+	</div>
+	<div class="social-media text-center">
+		<ul>
+			{% for social in site.socials %}
+			<li><a target="_blank" href="{{ social.url }}"><i class="fa fa-{{ social.name }}"></i></a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

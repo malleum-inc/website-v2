@@ -1,0 +1,20 @@
+<div class="single-widget tags_widget">
+	<div class="widget-title">
+		<h2><span>Tags</span></h2>
+	</div>
+	<div class="tags-list ">
+		<ul class="tag-cloud-box clearfix">
+	    {% assign tags_list = site.tags %}
+	      {% if tags_list.first[0] == null %}
+	        {% for tag in tags_list %}
+	          <li><a href="{{ tag | prepend: 'tag' | relative_url }}">{{ tag }}</a></li>
+	        {% endfor %}
+	      {% else %}
+	        {% for tag in tags_list %}
+	          <li><a href="{{ tag[0] | prepend: 'tag' | relative_url }}">{{ tag[0] }}</a></li>
+	        {% endfor %}
+	      {% endif %}
+	    {% assign tags_list = nil %}
+	    </ul>
+	</div>
+</div>

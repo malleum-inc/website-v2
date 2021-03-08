@@ -1,0 +1,119 @@
+---
+layout: blog
+title: Blog
+page_name: blog
+---
+
+
+
+		<!-- blog-page-area start here -->
+		<div class="blog-page-area section">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12 col-lg-8">
+
+					{% for post in paginator.posts %}
+
+						<div class="single-blog">
+							<div class="blog-img">
+								<a href="{{ post.url }}">
+									<img src="{{ post.image | relative_url }}" alt="blog">
+								</a>
+							</div>
+							<div class="blog-info">
+								<div class="blog-inner">
+									<div class="blog-meta">
+										<ul>
+											<li>
+												<i class="fa fa-calendar"></i>
+												<span>{{ post.date | date: "%b %-d, %Y"  }}</span>
+												{% if post.categories %}
+												|
+												<a href="{{ post.categories | first | prepend: '/category/'  | relative_url }}">
+									          		{{ post.categories | first }}
+									          	</a>
+												{% endif %}
+											</li>
+										</ul>
+									</div>
+									<div class="blog-title">
+										<h3>
+											<a href="{{ post.url }}">{{ post.title }}</a>
+										</h3>
+									</div>
+									<div class="blog-content">
+										<p>{{ post.description }}</p>
+									</div>
+									<div class="blog-tags">
+
+									<ul>
+						          	{% assign tag = post.tags | first %}
+								      {% if tag %}
+								          <li>
+								          	<a href="{{ tag | prepend: '/tags/'  | relative_url }}">
+								          		{{ tag }}
+								          	</a>
+								          </li>
+								      {% endif %}
+							   
+									</ul>
+			
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="pagination-area text-center">
+									{% if paginator.total_pages > 1 %}
+									<ul>
+									  {% if paginator.previous_page %}
+									    <li><a href="{{ paginator.previous_page_path | relative_url }}"><i class="fa fa-angle-double-left"></i></a></li>
+									  {% else %}
+									    <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+									  {% endif %}
+
+									  {% for page in (1..paginator.total_pages) %}
+									    {% if page == paginator.page %}
+									    <li class="active"><a href="#">{{ page }}</a></li>
+									    {% elsif page == 1 %}
+									      <li><a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a></li>
+									    {% else %}
+									      <li><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+									    {% endif %}
+									  {% endfor %}
+
+									  {% if paginator.next_page %}
+									    <li><a href="{{ paginator.next_page_path | relative_url }}"><i class="fa fa-angle-double-right"></i></a></li>
+									  {% else %}
+									    <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+									  {% endif %}
+									</ul>
+									{% endif %}
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+
+
+					<div class="col-md-12 col-lg-4">
+						<div class="sidebar-widgets">
+							{% include widgets/widget_search.html %}
+							{% include widgets/social_widget.html %}
+							{% include widgets/categories_widget.html %}
+							{% include widgets/recentpost_widget.html %}
+							{% include widgets/tags_widget.html %}
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- blog-page-area end here -->

@@ -1,0 +1,59 @@
+---
+layout: page
+---
+		<!-- blog-page-area start here -->
+		<div class="blog-datails-area section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-8">
+						<div class="single-blog">
+							<div class="blog-img">
+								<img src="{{ page.image | relative_url }}" alt="blog">
+							</div>
+							<div class="blog-meta">
+								<p><i class="fa fa-calendar"></i><span>{{ page.date | date: "%b %-d, %Y" }}</span></p>
+							</div>
+							<div class="blog-title">
+								<h2>{{ page.title }}</h2>
+							</div>
+							<div class="blog-content">
+								{{ page.content }}
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="related-tags">
+										{% if page.tags %}
+										<h4>Releted Tags</h4>
+										<div class="tags-list">
+											<ul>
+												{% for tag in page.tags %}
+												<li><a href="{{ tag | prepend:'tags' | relative_url}}">{{ tag }}</a></li>
+												{% endfor %}
+											</ul>
+										</div>
+										{% endif %}
+									</div>
+								</div>
+
+								{% include social_share.html %}
+								
+							</div>
+						</div>
+						
+						{% include disqus_comments.html %}
+						
+					</div>
+					<div class="col-md-12 col-lg-4">
+						<div class="sidebar-widgets">
+						{% include widgets/widget_search.html %}
+						{% include widgets/social_widget.html %}
+						{% include widgets/categories_widget.html %}
+						{% include widgets/recentpost_widget.html %}
+						{% include widgets/tags_widget.html %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- blog-page-area end here -->
+	

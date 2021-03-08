@@ -1,0 +1,62 @@
+		<!-- portfolio area start here -->
+		<div class="portfolio-area section-bottom pt-112">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="section-title text-center">
+							<span>{{ site.portfolio_tagline }}</span>
+							<h2>{{ site.portfolio_title }}</h2>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="filtering-button">
+								<a class="active" data-filter="*"> ALL</a>
+								{% for category in site.portfolio-categories %}
+								<a data-filter=".{{ category | replace:' ','-' | downcase }}">{{ category }}</a>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+					<div class="grid row">
+
+					{% for portfolio in site.portfolios %}
+						<div class="grid-item col-md-6 col-lg-4 col-sm-12  
+						{% for category in portfolio.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+							<div class="single-portfolio">
+								<div class="images">
+									<a href="#">
+										<img src="{{ portfolio.image | relative_url }}" alt="{{ portfolio.caption }}">
+									</a>
+									<div class="overlay">
+										<div class="overlay-content">
+											<div class="portfolio-sub-title">
+												<a href="#" rel="tag">{{ portfolio.categories | first }}</a>
+											</div>
+											<div class="portfolio-title">
+												<h3><a href="#" rel="tag">{{ portfolio.caption }}</a></h3>
+											</div>
+											<div class="meta-box">
+												<ul>
+													<li>
+														<a href="{{ portfolio.image | relative_url }}" data-lightbox="example-set" data-title="{{ portfolio.caption }}">
+															<i class="fa fa-search"></i>
+														</a>
+													</li>
+													<li><a href="{{ portfolio.url }}"><i class="fa fa-link"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- portfolio area start here -->

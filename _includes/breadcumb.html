@@ -1,0 +1,28 @@
+
+		<!-- breadcumb-area area start here -->
+		<div class="breadcumb-area text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 ">
+						<div class="breadcumb-page">
+							<ul>
+								<li><a  href="{{ '/' | relative_url }}">Home</a></li>
+								{% if page.layout == 'post' %}
+								<li>Blog</li>
+								{% else %}
+								<li>{{ page.title }}</li>
+								{% endif %}
+							</ul>
+						</div>
+						<div class="page-title">
+							{% if page.layout == 'post' %}
+							<h2>Blog Details</h2>
+							{% else %}
+							<h2>{{ page.title }}</h2>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- breadcumb-area area end here -->

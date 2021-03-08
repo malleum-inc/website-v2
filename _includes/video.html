@@ -1,0 +1,24 @@
+		<!-- video area start here		 -->
+		<div class="video-area">
+			<div class="container">
+				<div class="row acurate">
+					<div class="col-md-12 col-lg-6 acurate">
+						<div class="video-info">
+							<h4>{{ site.video_title }}</h4>
+							<p>{{ site.video_description }}</p>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6 acurate">
+						<div class="video">
+							<div class="video-inner">
+								<img src="{{ site.video_image | relative_url }}" alt="video">
+								<div class="play-btn">
+									<a href="{{ site.video_youtube_link }}" class="popup-youtube"><i class="fa fa-play"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- video area end here		 -->

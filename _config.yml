@@ -1,0 +1,595 @@
+# in the templates via {{ site.myvariable }}.
+name                : troma
+title               : Troma - Home
+email               : your-email@example.com
+address             : '2216 Park Avenue, California 95630 '
+phone               :  '+98(897)67 43 67'
+skype               : 'troma'
+tagline             : ' description for your new site here' 
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "http://127.0.0.1:4000" #   the base hostname & protocol for your site, e.g. http://example.com
+twitter_username    : jekyllrb
+github_username     :  jekyll
+
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/fav.png'
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+permalink: /:year/:month/:day/:title:output_ext
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+####################################
+######  banner Section   ######
+####################################
+banner_title: 'Connectivity Has <span></span> Never Been This Easier'
+banner_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam for humanity for savings anything for your future.'
+banner_image: 'assets/images/banner/1.png'
+banner_btn_one_text: 'Contact Now'
+banner_btn_one_link: '#'
+banner_btn_two_text: 'portfolio'
+banner_btn_two_link: '#'
+
+####################################
+######      idea Section      ######
+####################################
+idea_title: 'We Are Here <span></span> For Made Your Idea'
+idea_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim veni am for humanity for savings '
+
+
+
+####################################
+######     Global service     ######
+####################################
+
+service_title: 'Why Choose Us'
+service_description: 'Get Benifits <br> & Advantages'
+
+service:
+  - name: 'Competitive Price'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-premium'
+
+  - name: 'Growth Stratagy'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-best-seller'
+
+  - name: 'Quality Product'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-gift'
+
+  - name: 'Quick Delivery'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-shopping-cart'
+
+  - name: '24/7 Support'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-customer-service'
+
+  - name: 'Easy To Use'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-online-store'
+
+
+####################################
+######    About Us Section    ######
+####################################
+
+about_title: 'We Produce Emotion To Quality Product'
+about_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.'
+about_image: 'assets/images/about/1.png'
+
+about_future_1_text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.'
+about_future_2_text: 'Sed do eiusmod tempor incididunt ut labore et dolore magna.'
+about_future_3_text: 'Eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+about_future_4_text: 'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim.'
+
+about_btn_lint_text: 'get started'
+about_btn_lint_url: '#'
+
+#####################################
+########  Videos section   ##########
+#####################################
+
+video_title: 'Creative Agency'
+video_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor inc ididunt ut labore et dolore magna aliqua.'
+video_image: 'assets/images/video/1.jpg'
+video_youtube_link: 'https://www.youtube.com/watch?v=7GB4JQKHPrU'
+
+####################################
+######     Our service     ######
+####################################
+
+our_service_title: 'Our Services'
+our_service_tangline: 'what we do'
+
+our_service:
+  - name: 'Graphic Design'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-idea-1'
+    url: '#'
+
+  - name: 'Web Design'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-web-design'
+    url: '#'
+
+  - name: 'Vector Design'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-vector'
+    url: '#'
+
+  - name: 'Digital Product'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-idea-2'
+    url: '#'
+
+  - name: 'Strategy Planing'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-mountains'
+    url: '#'
+
+  - name: 'Strategy Planing'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-graphic-design'
+    url: '#'
+
+  - name: 'Architecture Plan'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-layers'
+    url: '#'
+
+  - name: 'Ecology Design'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-plant'
+    url: '#'
+
+  - name: 'Ecommerce'
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua ut enim adminim.'
+    icon: 'flaticon-online-store'
+    url: '#'
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio_title: 'Doing The Right Thing,<br>At The Right Time'
+portfolio_tagline: 'our case'
+
+#
+# Portfolio Grid
+#
+portfolio-categories: [Web Design, Logo, Graphics, Business]
+
+portfolios:
+# Portfolio Item
+- image: 'assets/img/project1.jpg'
+  categories: [Web Design, Logo, Graphics, Business]
+  caption: 'Thomastro Timber Virtual reality'
+
+# Portfolio Item
+- image: 'assets/img/project2.jpg'
+  categories: [Web Design, Logo, Graphics, Business]
+  caption: 'Thomastro Timber Virtual reality'
+
+# Portfolio Item
+- image: 'assets/img/project3.jpg'
+  categories: [Web Design, Graphics, Business]
+  caption: 'Thomastro Timber Virtual reality'
+
+# Portfolio Item
+- image: 'assets/img/project4.jpg'
+  categories: [Web Design, Logo]
+  caption: 'Thomastro Timber Virtual reality'
+
+# Portfolio Item
+- image: 'assets/img/project5.jpg'
+  categories: [websites, graphic Design]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/img/project6.jpg'
+  categories: [Web Design, Business]
+  caption: 'Thomastro Timber Virtual reality'
+
+
+#####################################
+###########    Teams     ############
+#####################################
+
+team_title: our team
+team_description: 'Experts Team Member <br> Will Ready For Your Services'
+
+teams:
+
+  - name: 'Roma De Suza'
+    title: 'FOUNDER'
+    image: 'assets/images/team/1.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: 'Jimonda Pilkao'
+    title: CEO
+    image: 'assets/images/team/2.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Troma Mikado
+    title: Business owner
+    image: 'assets/images/team/3.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Jumraz Linkon
+    title: PLANER
+    image: 'assets/images/team/4.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Umar Jaswal
+    title: MANAGER
+    image: 'assets/images/team/5.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Limonda Piklo
+    title: UI/UX DESIGNER
+    image: 'assets/images/team/6.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Hekim Jalebi
+    title: WEB DEVELOPER
+    image: 'assets/images/team/7.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+  - name: Juewl Desuza
+    title: APP DEVELOPER
+    image: 'assets/images/team/6.jpg'
+    facebook: '#'
+    twitter: '#'
+    behance: '#'
+    youtube: '#'
+    instagram: '#'
+
+
+
+
+
+#####################################
+########### Testimonials ############
+#####################################
+testimonial-title: 'View The <br> Latest News In Consultancy'
+testimonial-sub-title: 'news feeds'
+testimonial-description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.'
+
+# Testimonials
+testimonials:
+
+# Client
+- catagory: consultancy
+  title: Apparel Manufacturing
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+# Client
+- catagory: Branding
+  title: Grphic Design & Multimedia
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+# Client
+- catagory: WEB DESIGN 
+  title: Computer Engineering
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+# Client
+- catagory: LOGO DESIGN
+  title: Post Graduation Course
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+# Client
+- catagory: consultancy
+  title: Apparel Manufacturing
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+# Client
+- catagory: LOGO DESIGN
+  title: Apparel Manufacturing
+  quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+
+
+
+#####################################
+###########   Approch    ############
+#####################################
+approch-title: 'View The <br> Latest News In Consultancy'
+approch-sub-title: 'news feeds'
+approch-description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.'
+
+# Approch
+approch:
+
+# Approch
+- title: Our Responsibility
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+# Approch
+- title: Our Approach
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+# Approch
+- title: Our Mission, Vission
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+###################################
+########  counter        ##########
+###################################
+counter:
+  #counter
+  - title: 'Users'
+    counter: '500</span> M+'
+    icon: 'flaticon-users colored'
+
+  #counter
+  - title: 'Project done'
+    counter: '300</span> M+'
+    icon: 'flaticon-document colored'
+
+  #counter
+  - title: 'get awards'
+    counter: '1</span> M+'
+    icon: 'flaticon-medal colored'
+
+  #counter
+  - title: 'cup of coffee'
+    counter: '23</span> M+'
+    icon: 'flaticon-coffee-cup-1 colored'
+
+
+
+
+#####################################
+##########     Blog      ###########
+#####################################
+blog-title: '<span>from</span> the blog'
+blog-description: Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Mauris vel velitia pellentesque rutrum.
+
+#item
+items:
+  - name: 'Creative Concept'
+    icon: 'icofont icofont-brain-alt'
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.'
+
+  - name: 'Standard Coding'
+    icon: 'icofont icofont-keyboard-wireless'
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.'
+
+  - name: 'SEO friendly'
+    icon: 'icofont icofont-brand-google'
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.'
+
+
+projects:
+  name: '<span>Recent</span> Projects'
+  tagline: 'Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Mauris vel velitia pellentesque rutrum.'
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: 'OUR CASE'
+portfolio-description: 'Doing The Right Thing, At The Right Time'
+
+# Portfolio Grid
+portfolio-categories: [ WEB DESIGN, AVERTICEMENT, LOGO DESIGN, BRANDING, PHOTO, DESIGN ]
+portfolios:
+
+# Portfolio Item
+- image: 'assets/images/portfolio/1.jpg'
+  categories: [logo]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/images/portfolio/2.jpg'
+  categories: [Graphics]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/images/portfolio/3.jpg'
+  categories: [websites, graphic Design]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/images/portfolio/4.jpg'
+  categories: [business, Graphic]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/images/portfolio/5.jpg'
+  categories: [websites, graphic Design]
+  caption: ''
+
+# Portfolio Item
+- image: 'assets/images/portfolio/6.jpg'
+  categories: [web Design, logo]
+  caption: ''
+####################################
+######   Contact  section     ######
+####################################
+contact_title: 'Contact Us'
+contact_description: 'Contact For Any <br> Kind Of Information'
+
+
+
+####################################
+######    Footer  section     ######
+####################################
+footer_title: 'About Us'
+footer_description: 'Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat .'
+
+footer_menu_col1_title: 'Company'
+footer_menu_col2_title: 'Services'
+footer_menu_col3_title: 'Support'
+
+footer_menu_col1:
+  - text: 'About Us'
+    url: '#'
+  - text: 'Team'
+    url: '#'
+  - text: 'Customers'
+    url: '#'
+  - text: 'Jobs'
+    url: '#'
+  - text: 'Blog'
+    url: '#'
+
+footer_menu_col2:
+  - text: 'Web Design'
+    url: '#'
+  - text: 'Development'
+    url: '#'
+  - text: 'Animation'
+    url: '#'
+  - text: 'Mobile Apps'
+    url: '#'
+  - text: 'Strategy'
+    url: '#'
+
+footer_menu_col3:
+  - text: 'Help Center'
+    url: '#'
+  - text: 'Contact Us'
+    url: '#'
+  - text: 'Live Chat'
+    url: '#'
+  - text: 'Terms of Services'
+    url: '#'
+  - text: 'Privacy Policy'
+    url: '#'
+
+
+
+####################################
+######  Global Social Links   ######
+####################################
+socials: 
+  - name: 'twitter'
+    url: '#'
+
+  - name: 'facebook'
+    url: '#'
+
+  - name: 'linkedin'
+    url: '#'
+
+  - name: 'pinterest'
+    url: '#'
+
+  - name: 'instagram'
+    url: '#'
+
+
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# Google map
+google_map: AIzaSyCcvAXp35fi4q7HXm7vcG9JMtzQbMzjRe8
+
+disqus:
+  shortname: jubayed
+
+

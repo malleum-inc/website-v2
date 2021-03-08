@@ -1,0 +1,21 @@
+		<!-- counter area start here -->
+		<div class="counter-area section-top pb-112">
+			<div class="container">
+				<div class="row">
+					{% for counter in site.counter %}
+					<div class="col-lg-3 col-md-6 col-sm-12 ">
+						<div class="single-counter text-center">
+							<div class="counter-icon">
+								<i class="{{ counter.icon }}"></i>
+							</div>
+							<h1> <span class="counter">{{ counter.counter }}</h1>
+							<div class="counter-title">
+								<span>{{ counter.title }}</span>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<!-- counter area end here -->

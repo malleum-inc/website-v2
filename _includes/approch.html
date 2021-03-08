@@ -1,0 +1,30 @@
+		<!-- approch area start here -->
+		<div class="approch-area section">
+			<div class="container">
+				<div class="row">
+					{% for approch in site.approch %}
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="single-approch text-center">
+							<div class="approch-inner">
+								<div class="approcho-info">
+									<div class="approch-icon">
+										<i class="flaticon-group text-gradient2" ></i>
+									</div>
+									<div class="approch-title">
+										<h3>{{ approch.title }}</h3>
+									</div>
+									<div class="approch-content">
+										<p>{{ approch.content }}</p>
+									</div>
+									<div class="approch-btn">
+										<a href="{{ approch.url }}"><i class="fa fa-angle-double-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<!-- approch area end here -->

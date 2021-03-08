@@ -1,0 +1,30 @@
+<div class="single-widget categories_widget">
+	<div class="widget-title">
+		<h2><span>Categories</span></h2>
+	</div>
+	<div class="categories-list ">
+		<ul>
+	{% assign cat_list = site.categories %}
+      {% if cat_list.first[0] == null %}
+        {% for category in cat_list %}
+          <li>
+          	<a href="{{ category | prepend: '/category/'  | relative_url }}">
+          		{{ category }}
+          	</a>
+          	<span>({{ cat_list[category].size }})</span>
+          </li>
+        {% endfor %}
+      {% else %}
+        {% for category in cat_list %}
+          <li>
+          	<a href="{{ category[0] | prepend: '/category/'  | relative_url }}">
+          		{{ category[0] }} 
+          	</a>
+          	<span>({{ category[1].size }})</span>
+      	  </li>
+        {% endfor %}
+      {% endif %}
+    {% assign cat_list = nil %}
+		</ul>
+	</div>
+</div>
