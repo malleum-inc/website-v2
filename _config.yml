@@ -72,12 +72,30 @@ banner_btn_one_link: '#'
 # banner_btn_two_link: '#'
 
 ####################################
-######      brands Section      ######
+######      brands_1 Section      ######
 ####################################
-brand_image_1: 'assets/images/brands/burpkit.png'
-brand_image_2: 'assets/images/brands/py-mi-proxy.png'
-brand_image_3: 'assets/images/brands/canari-framework.png'
-brand_image_4: 'assets/images/brands/sploitego.png'
+brands_1:
+- image: 'assets/images/brands/burpkit.png'
+  alt: 'Burpkit'
+- image: 'assets/images/brands/py-mi-proxy.png'
+  alt: 'PyMiProxy'
+- image: 'assets/images/brands/canari-framework.png'
+  alt: 'Canari Framework'
+- image: 'assets/images/brands/sploitego.png'
+  alt: 'sploitego'
+
+####################################
+######      brands_2 Section      ######
+####################################
+brands_2:
+- image: 'assets/images/brands/blackhat.png'
+  alt: 'Black hat'
+- image: 'assets/images/brands/defcon.png'
+  alt: 'DEFCON'
+- image: 'assets/images/brands/owasp.png'
+  alt: 'OWASP'
+- image: 'assets/images/brands/hackfest.png'
+  alt: 'Hackfest'
 
 ####################################
 ######      adversary Section      ######
@@ -108,6 +126,92 @@ service_grey:
 
 # Service
 - title: Red Canari<br>365
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+####################################
+######   governance Section  ######
+####################################
+
+governance_title: 'Governance, Risk<br>&amp; Compliance<br>(GRC)'
+governance_description: 'Lorem Something dolor money salt that’s epsom. Lorem
+Something dolor money salt that’s epsom. Lorem Something
+dolor money salt that’s epsom.'
+governance_image: 'assets/images/iso/grc.png'
+governance_btn_one_text: 'Learn More'
+governance_btn_one_link: '#'
+
+####################################
+######      service_governance Section      ######
+####################################
+# Service
+service_governance:
+
+# Service
+- title: Red Canari<br>Resilience Program
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+# Service
+- title: Compliance<br>Assesment
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+# Service
+- title: Threat and Risk<br>Assesment
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+####################################
+######   advisory Section  ######
+####################################
+
+advisory_title: 'Red Canari<br>Advisory'
+advisory_description: 'Lorem Something dolor money salt that’s epsom. Lorem
+Something dolor money salt that’s epsom. Lorem Something
+dolor money salt that’s epsom.'
+advisory_image: 'assets/images/iso/advisory.png'
+advisory_btn_one_text: 'Learn More'
+advisory_btn_one_link: '#'
+
+####################################
+######      service_advisory Section      ######
+####################################
+# Service
+service_advisory:
+
+# Service
+- title: Red Canari<br>CISO
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+# Service
+- title: Training<br>Programs
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+####################################
+######   cloud Section  ######
+####################################
+
+cloud_title: 'Cloud<br>Security'
+cloud_description: 'Lorem Something dolor money salt that’s epsom. Lorem
+Something dolor money salt that’s epsom. Lorem Something
+dolor money salt that’s epsom.'
+cloud_image: 'assets/images/iso/secure-cloud.png'
+cloud_btn_one_text: 'Learn More'
+cloud_btn_one_link: '#'
+
+####################################
+######      service_cloud Section      ######
+####################################
+# Service
+service_cloud:
+
+# Service
+- title: Red Canari<br>DevOps
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+# Service
+- title: Secure Cloud<br>Transformations
   content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
   url: '#'
 
