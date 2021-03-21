@@ -1,11 +1,11 @@
 # in the templates via {{ site.myvariable }}.
-name                : troma
-title               : Troma - Home
-email               : your-email@example.com
-address             : '2216 Park Avenue, California 95630 '
-phone               :  '+98(897)67 43 67'
-skype               : 'troma'
-tagline             : ' description for your new site here' 
+name                : Redcanari
+title               : Redcanari - Home
+email               : info@redcanari.com
+address             : ''
+phone               : '+1 778 1337 9000'
+skype               : 'redcanari'
+tagline             : ' description for your new site here'
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -52,13 +52,64 @@ exclude:
 ####################################
 ######  banner Section   ######
 ####################################
-banner_title: 'Connectivity Has <span></span> Never Been This Easier'
-banner_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam for humanity for savings anything for your future.'
-banner_image: 'assets/images/banner/1.png'
-banner_btn_one_text: 'Contact Now'
+banner_title: '<span style="color:#e30613">Advance</span> Your Organizations Resiliency'
+banner_description: 'Established in 2013, Red Canari is a Canadian corporation focused on
+highly technical, offensive cybersecurity. Red Canari experts are authors of
+globally adopted security tools and regularly present proprietary research
+projects on the world stage including at Black Hat and DEF CON.<br><br>
+We are authorized by the Canadian Industrial Security Directorate to work
+on sensitive, classified projects for key government departments and the
+military command.<br><br>
+Our experts advance cyber resilience at key global organizations across
+sectors including a top international air navigation service provider, the
+definitive core banking software company, a large hydroelectric power
+station operator, a premier national medical insurer, government and the
+military command.'
+banner_image: 'assets/images/banner/home-header.png'
+banner_btn_one_text: 'Talk to an expert'
 banner_btn_one_link: '#'
-banner_btn_two_text: 'portfolio'
-banner_btn_two_link: '#'
+# banner_btn_two_text: 'portfolio'
+# banner_btn_two_link: '#'
+
+####################################
+######      brands Section      ######
+####################################
+brand_image_1: 'assets/images/brands/burpkit.png'
+brand_image_2: 'assets/images/brands/py-mi-proxy.png'
+brand_image_3: 'assets/images/brands/canari-framework.png'
+brand_image_4: 'assets/images/brands/sploitego.png'
+
+####################################
+######      adversary Section      ######
+####################################
+adversary_title: 'Adversarial Emulation'
+adversary_description: 'Established in 2013, Red Canari is a Canadian corporation focused on
+highly technical, offensive cybersecurity. Red Canari experts are authors of
+globally adopted security tools and regularly present proprietary research
+projects on the world stage including at Black Hat and DEF CON.'
+adversary_image: 'assets/images/iso/adversarial.png'
+adversary_btn_one_text: 'Learn More'
+adversary_btn_one_link: '#'
+
+####################################
+######      service_grey Section      ######
+####################################
+# Service
+service_grey:
+
+# Service
+- title: Penetration<br>Testing
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+# Service
+- title: Application<br>Assesment
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
+
+# Service
+- title: Red Canari<br>365
+  content: 'Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris.'
+  url: '#'
 
 ####################################
 ######      idea Section      ######
@@ -328,7 +379,7 @@ testimonials:
   quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
 
 # Client
-- catagory: WEB DESIGN 
+- catagory: WEB DESIGN
   title: Computer Engineering
   quotes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua umet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
 
@@ -469,7 +520,7 @@ portfolios:
 ######   Contact  section     ######
 ####################################
 contact_title: 'Contact Us'
-contact_description: 'Contact For Any <br> Kind Of Information'
+contact_description: 'Contact Us For<br>More Information'
 
 
 
@@ -524,7 +575,7 @@ footer_menu_col3:
 ####################################
 ######  Global Social Links   ######
 ####################################
-socials: 
+socials:
   - name: 'twitter'
     url: '#'
 

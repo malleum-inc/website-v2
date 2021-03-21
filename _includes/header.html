@@ -13,10 +13,10 @@
 						<div class="menu-area text-right">
 							<nav class="main-menu">
 								<ul>
-									<li {% if page.page_name == 'home' %} class="current_menu_item" {% endif %}>
+									<!-- <li {% if page.page_name == 'home' %} class="current_menu_item" {% endif %}>
 										<a href="{{ '/' | relative_url }}">Home</a>
-									</li>
-									
+									</li> -->
+
 									{% for nav in site.data.navigation.header %}
                                 	<li {% if page.page_name == nav.url %} class="current_menu_item" {% endif %} >
                                 		<a href="{{ nav.url | relative_url}}">{{ nav.title }}</a>

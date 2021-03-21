@@ -1,16 +1,16 @@
-header: 
-  - title: 'About Us'
+header:
+  - title: 'About'
     url: 'about'
-  
-  - title: 'Service'
+
+  - title: 'Services'
     url: 'service'
-  
-  - title: 'Portfolio'
+
+  - title: 'Our Team'
     url: 'portfolio'
-  
-  - title: 'Blog'
-    url: 'blog'
-  
+
+  # - title: 'Blog'
+  #   url: 'blog'
+
   - title: 'Contact'
     url: 'contact'
 
