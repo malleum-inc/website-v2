@@ -1,18 +1,18 @@
 header:
   - title: 'About'
-    url: 'about'
+    url: '#about'
 
   - title: 'Services'
-    url: 'service'
+    url: '#service'
 
   - title: 'Our Team'
-    url: 'portfolio'
+    url: '#team'
 
   # - title: 'Blog'
   #   url: 'blog'
 
   - title: 'Contact'
-    url: 'contact'
+    url: '#contact'
 
 
 
