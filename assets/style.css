@@ -63,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 
@@ -784,22 +784,21 @@ ul {
 
 .banner-area {
   position: relative;
-  padding-top: 110px;
+  padding-top: 150px;
   padding-bottom: 110px;
   background-image: url('images/bg/bg-banner.png');
-  background-position: right;
 }
 
 .banner-area .banner-img {
-  position: absolute;
-  content: '';
-  right: 0;
-  top: 0;
-  max-width: 50%;
-  height: auto;
-  max-height: 50%;
-  width: auto;
-  z-index: 0;
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    z-index: 0;
 }
 
 .banner-area .banner-img img {
@@ -808,25 +807,25 @@ ul {
 }
 
 .banner-area .banner-info .banner-title h1 {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 60px;
   color: #4d4d4d;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin-bottom: 15px;
 }
 
-.banner-area .banner-info .banner-title h1 span {
+/* .banner-area .banner-info .banner-title h1 span {
   display: block;
-}
+} */
 
 .banner-area .banner-info .banner-content {
-  padding-right: 120px;
+  padding-top: 80px;
 }
 
 .banner-area .banner-info .banner-content p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 25px;
   color: #4d4d4d;
   margin-bottom: 40px;
 }
@@ -1214,7 +1213,7 @@ ul {
 
 .video-area .video-info p {
   font-size: 29px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.6666;
   font-weight: 600;
   margin-bottom: 0px;
@@ -1426,7 +1425,7 @@ ul {
 .counter-area .single-counter h1 {
   font-size: 50px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
 }
 
@@ -3194,14 +3193,14 @@ ul {
   font-weight: 600;
   font-size: 14px;
   margin-top: 11px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .blog-datails-area .single-blog .related-tags h4 {
   font-size: 18px;
   font-weight: 600;
   color: #1d274e;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   display: block;
   margin-bottom: 14px;
 }
@@ -3253,7 +3252,7 @@ ul {
   font-size: 18px;
   font-weight: 600;
   color: #1d274e;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   display: block;
   margin-bottom: 14px;
 }
@@ -3638,7 +3637,7 @@ ul {
 }
 
 .portfolio-details-area .portfolio-content .portfolio-meta .single-meta h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 24px;
   line-height: 1.5;
   font-weight: 600;
@@ -3947,7 +3946,7 @@ ul {
   background-image: -o-linear-gradient(left, #cb0611, #9124dc);
   background-image: linear-gradient(left, #cb0611, #9124dc);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cb0611', endColorStr='#9124dc', gradientType='1');
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-border-radius: 50px;
   -khtml-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -4056,7 +4055,7 @@ ul {
   font-size: 16px;
   font-weight: 600;
   color: #1d274e;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin-bottom: 0;
 }
 
@@ -4458,7 +4457,7 @@ ul {
   margin-bottom: 0;
   font-weight: 700;
   color: #232323;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -4702,7 +4701,7 @@ ul {
 .single-product div.product .entry-summary .price .amount {
   font-size: 50px;
   font-weight: 200;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #ff1c67;
 }
 
@@ -5124,7 +5123,7 @@ ul {
   .woocommerce-review__author {
   font-weight: 600;
   color: #1d274e;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .single-product
@@ -5221,7 +5220,7 @@ ul {
 }
 
 .ct-list.layout2 li label {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   color: #1d274e;
   width: 28%;
@@ -6491,7 +6490,7 @@ ul {
 .ct-counter-layout2 .ct-counter-digit {
   font-size: 24px;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   color: #1d274e;
 }
@@ -7077,6 +7076,7 @@ ul {
 .bg-brands {
   background-image: url('images/bg/bg-logos.png');
   background-size: cover;
+  padding: 20px 0;
 }
 /* adversary area */
 .adversary-img {
@@ -7107,7 +7107,7 @@ ul {
   background-color: #fff;
   background-position: left top;
   background-repeat: no-repeat;
-  padding-bottom: 0px;
+  padding-bottom: 98px;
 }
 .service-governance-area {
   background-color: #f0f0f0;
@@ -7126,7 +7126,7 @@ ul {
   background-color: #fff;
   background-position: left bottom;
   background-repeat: no-repeat;
-  padding-bottom: 0px;
+  padding-bottom: 133px;
 }
 .service-advisory-area {
   background-color: #f0f0f0;
@@ -7146,7 +7146,7 @@ ul {
   background-color: #fff;
   background-position: right top;
   background-repeat: no-repeat;
-  padding-bottom: 0px;
+  padding-bottom: 91px;
 }
 .service-cloud-area {
   background-color: #f0f0f0;

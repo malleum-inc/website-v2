@@ -2,9 +2,8 @@
 <section class="bg-brands">
     <div class="container">
         <div class="row">
-            <div class="offset-lg-2"></div>
             {% for brand in site.brands_1 %}
-            <div class="col-md-6 col-lg-2 col-sm-6">
+            <div class="col-md-6 col-lg-3 col-sm-6">
                 <img src="{{ brand.image  | relative_url }}" alt="{{ brand.alt }}">
             </div>
             {% endfor %}
