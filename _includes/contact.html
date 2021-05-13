@@ -1,5 +1,5 @@
 		<!-- contact area start here		 -->
-		<div class="contact-area section-bottom pt-112">
+		<div id="contact" class="contact-area section-bottom pt-112">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12">
@@ -13,7 +13,9 @@
 						</div>
 						<div class="contact-info">
 							<div class="media">
-								<div class="service-icon mr-3"> <i class="text-gradient fa fa-phone"></i></div>
+								<div class="service-icon mr-3">
+                                    <img height="60" width="60" src="{{ 'assets/images/icons/Call.svg' | relative_url }}" alt="">
+                                </div>
 								<div class="media-body">
 									<span class="mt-0">CALL US ON</span>
 									<h2>{{ site.phone }}</h2>
@@ -22,7 +24,9 @@
 						</div>
 						<div class="contact-info">
 							<div class="media">
-								<div class="service-icon mr-3"> <i class="text-gradient fa fa-envelope"></i></div>
+								<div class="service-icon mr-3">
+                                    <img height="60" width="60" src="{{ 'assets/images/icons/Email.svg' | relative_url }}" alt="">
+                                </div>
 								<div class="media-body">
 									<span class="mt-0">EMAIL US AT</span>
 									<h2>{{ site.email }}</h2>

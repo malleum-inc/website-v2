@@ -508,7 +508,7 @@ ul {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: #ce0611ff;
+  background: #ce0611;
   color: #fff;
   text-align: center;
 }
@@ -790,15 +790,15 @@ ul {
 }
 
 .banner-area .banner-img {
-    position: absolute;
-    content: '';
-    right: 0;
-    top: 20px;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    width: auto;
-    z-index: 0;
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  z-index: 0;
 }
 
 .banner-area .banner-img img {
@@ -2357,8 +2357,8 @@ ul {
   visibility: visible;
 }
 
-.approch-area .single-approch:hover .approch-inner .approcho-info .approch-icon i {
-  color: #ffffff;
+.approch-area .single-approch:hover .approch-inner .approcho-info .approch-icon svg path {
+  fill: #ffffff;
 }
 
 .approch-area .single-approch:hover .approch-inner .approcho-info .approch-title h3 {
@@ -2429,18 +2429,18 @@ ul {
   line-height: 1;
 }
 
-.approch-area .single-approch .approch-inner .approcho-info .approch-icon i {
-  font-size: 79px;
+.approch-area .single-approch .approch-inner .approcho-info .approch-icon svg {
+  width: 95px;
+  height: 95px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-  color: #e30613;
 }
 
 .approch-area .single-approch .approch-inner .approcho-info .approch-title h3 {
-  font-size: 26px;
+  font-size: 24px;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -2456,7 +2456,7 @@ ul {
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   transition: all 0.5s;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 26px;
   color: #4d4d4d;
   margin-bottom: 32px;
@@ -7116,9 +7116,9 @@ ul {
   background-position: top left;
 }
 .advisory-img {
-    left: 20%;
-    max-width: 35% !important;
-    top: 5% !important;
+  left: 20%;
+  max-width: 35% !important;
+  top: 5% !important;
 }
 .advisory-area {
   position: relative;
@@ -7136,9 +7136,9 @@ ul {
 }
 
 .cloud-img {
-    right: 15% !important;
-    max-width: 35% !important;
-    top: 5% !important;
+  right: 15% !important;
+  max-width: 35% !important;
+  top: 5% !important;
 }
 .cloud-area {
   position: relative;

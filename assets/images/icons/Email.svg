@@ -8,8 +8,8 @@
 <g id="Layer_1-16">
 	
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.8983" y1="62.5597" x2="103.9816" y2="62.5597" gradientTransform="matrix(1 0 0 -1 0 124)">
-		<stop  offset="0" style="stop-color:#E11E25"/>
-		<stop  offset="1" style="stop-color:#C71F25"/>
+		<stop  offset="0" style="stop-color:#fff"/>
+		<stop  offset="1" style="stop-color:#fff"/>
 	</linearGradient>
 	<path class="st0" d="M86.1,88.7v20.1c0,5.7-4.6,10.3-10.3,10.3H29.2c-5.7,0-10.3-4.6-10.3-10.3V14.1c0-5.7,4.6-10.3,10.3-10.3h46.6
 		c5.7,0,10.3,4.6,10.3,10.3v20.1h-2.8V19.1H21.7v84.8h61.5V88.7H86.1z M39.6,80.9L59,61.4L39.6,42V80.9z M61,63.4L41.6,82.9h57.5
