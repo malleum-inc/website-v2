@@ -2345,6 +2345,8 @@ ul {
 .approch-area .single-approch {
   overflow: hidden;
   border-radius: 10px;
+  height: 100%;
+  background-color: #fff;
 }
 
 .approch-area .single-approch:hover .approch-inner:before {
@@ -2377,6 +2379,7 @@ ul {
   padding: 80px 40px;
   position: relative;
   z-index: 4;
+  height: 100%;
 }
 
 .approch-area .single-approch .approch-inner:before {
