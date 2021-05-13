@@ -315,7 +315,7 @@ service_governance:
 
 # Service
 - title: Threat and Risk<br>Assesment
-  content: 'Examine threats acting against existing security controls at your organization and determines risk, in terms of probability of compromise and impact severity.'
+  content: 'Examine threats acting against existing security controls at your organization and determines risk, in terms of probability of compromise and impact severity.<br><br>'
   url: '#'
   svg: '<style type="text/css">
         .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
@@ -371,7 +371,7 @@ service_advisory:
 
 # Service
 - title: Red Canari<br>CISO
-  content: 'Red Canari CISO’s are security leaders that help your organization plan and execute a purpose-built security roadmap.'
+  content: 'Red Canari CISO’s are security leaders that help your organization plan and execute a purpose-built security roadmap.<br><br>'
   url: '#'
   svg: '<style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
