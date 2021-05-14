@@ -52,19 +52,10 @@ exclude:
 ####################################
 ######  banner Section   ######
 ####################################
-banner_title: '<span style="color:#e30613">Advance</span> Your Organizations Resiliency'
-banner_description: 'Established in 2013, Red Canari is a Canadian corporation focused on
-highly technical, offensive cybersecurity. Red Canari experts are authors of
-globally adopted security tools and regularly present proprietary research
-projects on the world stage including at Black Hat and DEF CON.<br><br>
-We are authorized by the Canadian Industrial Security Directorate to work
-on sensitive, classified projects for key government departments and the
-military command.<br><br>
-Our experts advance cyber resilience at key global organizations across
-sectors including a top international air navigation service provider, the
-definitive core banking software company, a large hydroelectric power
-station operator, a premier national medical insurer, government and the
-military command.'
+banner_title: <span style="color:#e30613">Advance</span> Your Organization's Resiliency
+banner_description: '<p>Red Canari Is a Canadian corporation that provides highly technical, offensive cybersecurity. Our experts are authors of globally adopted security tools and regularly present proprietary research projects on the world stage at Black Hat and DEF CON.</p>
+<p>We are trusted to work on sensitive, classified projects for key government departments and agencies, as well as the military command by the Canadian Industrial Security Directorate and the North Atlantic Treaty Organization. Our experts are also cleared to access controlled goods.</p>
+<p>Red Canari’s experts advance cyber resilience at key global organizations across sectors including a top international air navigation service provider, the definitive core banking software company, a large hydroelectric power station operation, a premier national medical insurer, government, and the military command.</p>'
 banner_image: 'assets/images/banner/home-header.png'
 banner_btn_one_text: 'Talk to an expert'
 banner_btn_one_link: '#contact'
@@ -233,7 +224,7 @@ service_grey:
 ####################################
 
 governance_title: 'Governance, Risk<br>&amp; Compliance<br>(GRC)'
-governance_summary: 'Red Canari will provide your organization with a strategy to effectively manage your organization’s overall governance, enterprise risk management, and compliance with regulations.'
+governance_summary: 'Red Canari’s experts advise organizations on strategies to manage their governance, enterprise risk management, and regulatory compliance. Our services are highly customized to deliver fully developed security programs that will ensure your organization is ready for a security incident and is fully compliant with industry standards and legal requirements.'
 governance_description: 'Red Canari will provide your organization with a strategy to effectively manage your organization’s overall governance, enterprise risk management, and compliance with regulations. Our GRC professionals have over 50 years combined experience in the industry consulting on the execution of comprehensive programmes for large and small organizations in both the public and private sectors. We offer our clients a full organizational review that includes a detailed threat and risk profile, an independent assessment of control and practice maturity, an analysis of organizational risks, and recommendations to address any gaps identified in your security. Contact one of our GRC professionals today to learn how we can deliver on your GRC priorities.'
 governance_image: 'assets/images/iso/grc.png'
 governance_btn_one_text: 'Learn More'
@@ -359,7 +350,7 @@ service_governance:
 ####################################
 
 advisory_title: 'Red Canari<br>Advisory'
-advisory_summary: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest.'
+advisory_summary: 'Red Canari offers comprehensive advisory services that prepare your organization for the cybersecurity threats you face. We provide a strategic, tactical, and hands-on approach that gives your team all the tools to prepare and overcome your challenges.'
 advisory_description: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest. Our team of experts will provide your organization strategic, tactical, and hands-on educational approach to equip you with all the tools you need to prepare for and overcome attacks by your adversaries. Contact one of our experts today to learn how we can advise your organization to defend and combat your threats.'
 advisory_image: 'assets/images/iso/advisory.png'
 advisory_btn_one_text: 'Learn More'
@@ -460,7 +451,7 @@ service_advisory:
 ####################################
 
 cloud_title: 'Cloud<br>Security'
-cloud_summary: 'Red Canari will provide your organization cloud security consulting services from exploitation and vulnerability. Our experts will support your organization whether it is transitioning to the cloud for the first time,...'
+cloud_summary: 'Red Canari offers cloud security consulting services from exploitation and vulnerability. Our experts can provide the expertise and support to help you through the software development lifecycle or the proper configurations to see your business transform its operations to the cloud.'
 cloud_description: 'Red Canari will provide your organization cloud security consulting services from exploitation and vulnerability. Our experts will support your organization whether it is transitioning to the cloud for the first time, or whether you require a support on your existing configurations. We also provide comprehensive support throughout the entire software development lifecycle, from the design and development phases, testing and operations, as well as operations and maintenance. Contact one of our experts today to learn how we can support your cloud transformation or advise you on the development lifecycle of your software.'
 cloud_image: 'assets/images/iso/secure-cloud.png'
 cloud_btn_one_text: 'Learn More'

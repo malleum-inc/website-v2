@@ -287,7 +287,7 @@
 
         var modal = $(this)
         modal.find('.modal-title').html(serviceTitle)
-        modal.find('.modal-body').text(serviceBody)
+        modal.find('.modal-body').html(serviceBody)
     })
 
 })(jQuery);

@@ -830,7 +830,7 @@ ul {
   font-size: 15px;
   line-height: 25px;
   color: #4d4d4d;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .banner-area .banner-info .banner-btn .btn {
@@ -7113,7 +7113,7 @@ ul {
   background-color: #fff;
   background-position: left top;
   background-repeat: no-repeat;
-  padding-bottom: 73px;
+  padding-bottom: 43px;
 }
 .service-governance-area {
   background-color: #f0f0f0;
@@ -7152,7 +7152,7 @@ ul {
   background-color: #fff;
   background-position: right top;
   background-repeat: no-repeat;
-  padding-bottom: 66px;
+  padding-bottom: 60px;
 }
 .service-cloud-area {
   background-color: #f0f0f0;
@@ -7162,6 +7162,7 @@ ul {
 }
 .modal-content {
     border-radius: 10px;
+    background-color: rgba(255,255,255,0.9);
 }
 .mean-container .mean-bar{
     background-color: #cb0611;
