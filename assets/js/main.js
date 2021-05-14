@@ -283,6 +283,7 @@
         var button = $(event.relatedTarget) // Button that triggered the modal
 
         var serviceTitle = button.data('title')
+        serviceTitle = serviceTitle.replace('<br>', ' ');
         var serviceBody = button.data('body')
 
         var modal = $(this)

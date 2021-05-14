@@ -823,7 +823,7 @@ ul {
 } */
 
 .banner-area .banner-info .banner-content {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .banner-area .banner-info .banner-content p {
@@ -1743,7 +1743,8 @@ ul {
   margin-bottom: 4px;
   font-size: 24px;
   font-weight: 600;
-  color: #1d274e;
+  letter-spacing: normal;
+  color: #4d4d4d;
   text-transform: capitalize;
   margin-bottom: 8px;
 }
@@ -1755,7 +1756,7 @@ ul {
   text-transform: uppercase;
   font-family: 'Rubik', sans-serif;
   color: #e30613;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 /*=================================================
@@ -7113,7 +7114,7 @@ ul {
   background-color: #fff;
   background-position: left top;
   background-repeat: no-repeat;
-  padding-bottom: 43px;
+  padding-bottom: 133px;
 }
 .service-governance-area {
   background-color: #f0f0f0;
@@ -7152,7 +7153,7 @@ ul {
   background-color: #fff;
   background-position: right top;
   background-repeat: no-repeat;
-  padding-bottom: 60px;
+  padding-bottom: 150px;
 }
 .service-cloud-area {
   background-color: #f0f0f0;

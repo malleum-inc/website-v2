@@ -1,10 +1,8 @@
-@media (max-width: 1300px) {
+@media (max-width: 1760px) {
     .banner-area .banner-img img {
 		opacity: .3;
 	}
 }
-
-@media (max-width: 1600px) {}
 
 
 /* Portrait tablets and medium desktops */
