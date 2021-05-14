@@ -279,4 +279,15 @@
         });
     });
 
+    $('#serviceModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) // Button that triggered the modal
+
+        var serviceTitle = button.data('title')
+        var serviceBody = button.data('body')
+
+        var modal = $(this)
+        modal.find('.modal-title').html(serviceTitle)
+        modal.find('.modal-body').text(serviceBody)
+    })
+
 })(jQuery);

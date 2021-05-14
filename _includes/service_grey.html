@@ -1,5 +1,5 @@
 <!-- service_grey area start here -->
-<div id="service" class="service-grey-area approch-area section">
+<div class="service-grey-area approch-area section">
     <div class="container">
         <div class="row">
             {% for service_grey in site.service_grey %}
@@ -8,7 +8,9 @@
                     <div class="approch-inner">
                         <div class="approcho-info">
                             <div class="approch-icon">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.9 122.9" style="enable-background:new 0 0 122.9 122.9;" xml:space="preserve">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.9 122.9"
+                                    style="enable-background:new 0 0 122.9 122.9;" xml:space="preserve">
                                     {{ service_grey.svg }}
                                 </svg>
                                 <!-- <i class="flaticon-group text-gradient2"></i> -->
@@ -17,10 +19,12 @@
                                 <h3>{{ service_grey.title }}</h3>
                             </div>
                             <div class="approch-content">
-                                <p>{{ service_grey.content }}</p>
+                                <p>{{ service_grey.summary }}</p>
                             </div>
                             <div class="approch-btn">
-                                <a href="{{ service_grey.url }}"><i class="fa fa-angle-double-right"></i></a>
+                                <a href="#" data-toggle="modal" data-target="{{service_grey.url}}"
+                                    data-title="{{ service_grey.title }}" data-body="{{ service_grey.content }}"><i
+                                        class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>

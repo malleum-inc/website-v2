@@ -1736,7 +1736,7 @@ ul {
 }
 
 .team-area .single-member .member-img .social-media ul li a:hover {
-  color: #015dc7;
+  color: #ce0611;
 }
 
 .team-area .single-member .member-name h3 {
@@ -7113,7 +7113,7 @@ ul {
   background-color: #fff;
   background-position: left top;
   background-repeat: no-repeat;
-  padding-bottom: 98px;
+  padding-bottom: 73px;
 }
 .service-governance-area {
   background-color: #f0f0f0;
@@ -7152,11 +7152,17 @@ ul {
   background-color: #fff;
   background-position: right top;
   background-repeat: no-repeat;
-  padding-bottom: 91px;
+  padding-bottom: 66px;
 }
 .service-cloud-area {
   background-color: #f0f0f0;
   background-image: url('images/bg/bg-service-right.png');
   background-repeat: no-repeat;
   background-position: top left;
+}
+.modal-content {
+    border-radius: 10px;
+}
+.mean-container .mean-bar{
+    background-color: #cb0611;
 }

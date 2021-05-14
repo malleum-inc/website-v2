@@ -67,7 +67,7 @@ station operator, a premier national medical insurer, government and the
 military command.'
 banner_image: 'assets/images/banner/home-header.png'
 banner_btn_one_text: 'Talk to an expert'
-banner_btn_one_link: '#'
+banner_btn_one_link: '#contact'
 # banner_btn_two_text: 'portfolio'
 # banner_btn_two_link: '#'
 
@@ -101,13 +101,11 @@ brands_2:
 ######      adversary Section      ######
 ####################################
 adversary_title: 'Adversarial Emulation'
-adversary_description: 'Established in 2013, Red Canari is a Canadian corporation focused on
-highly technical, offensive cybersecurity. Red Canari experts are authors of
-globally adopted security tools and regularly present proprietary research
-projects on the world stage including at Black Hat and DEF CON.'
+adversary_summary: 'Red Canari simulates the very real threats that face your organization with our adversarial emulation services. Our team is comprised of...'
+adversary_description: 'Red Canari simulates the very real threats that face your organization with our adversarial emulation services. Our team is comprised of experienced ethical hackers who have extensive knowledge penetrating cyber security defences, assessing vulnerabilities, and launching fully coordinated red team exercises that will compromise your environment. We offer a full suite of services focused on Adversarial Emulation that will bolster your organization’s defences and detection abilities. Contact one of our industry renowned security professionals today to learn how we can protect your organization from threats.'
 adversary_image: 'assets/images/iso/adversarial.png'
 adversary_btn_one_text: 'Learn More'
-adversary_btn_one_link: '#'
+adversary_btn_one_link: '#serviceModal'
 
 ####################################
 ######      service_grey Section      ######
@@ -116,9 +114,10 @@ adversary_btn_one_link: '#'
 service_grey:
 
 # Service
-- title: Penetration<br>Testing
-  content: 'Penetration tests are highly technical assessments of your defense against exploitation of weaknesses in your technology infrastructure.'
-  url: '#'
+- title: Penetration<br>Tests
+  summary: 'Red Canari is trusted to perform penetration tests by one of the world’s top navigation service providers to secure its air traffic control systems.'
+  content: 'Penetration tests are highly technical assessments of your organization’s defence against the exploitation of weaknesses in your technology infrastructure. Red Canari’s experts utilize hands-on, manual testing that is informed by targeted research to produce innovative results. Our proprietary penetration testing methodology is based on industry-recognized security testing standards. We identify never-before-seen (zero-day) vulnerabilities that are intricately interlaced into complex IT and OT systems in your infrastructure.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
                                         .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
                                     </style>
@@ -158,9 +157,10 @@ service_grey:
                                     c-5.7-1.2-11.4-1.8-17.2-1.9v21.5C67.9,109.7,73.1,104.7,76.9,97z M80.4,88.1c2.3-7.7,3.4-15.6,3.5-23.6H62.3v21.6
                                     C68.4,86.2,74.5,86.8,80.4,88.1z" />'
 # Service
-- title: Application<br>Assesment
-  content: 'Application assessments help identify weaknesses introduced during design, development, deployment and integration, and prioritize remediation.'
-  url: '#'
+- title: Application<br>Assessments
+  summary: 'Red Canari is trusted to identify critical security flaws in the world’s best-selling and leading core banking software.<br><br>'
+  content: 'Security starts at the source. Application assessments identify weaknesses that were introduced to your systems and network during the design, development, deployment and integration phases. We use customer exploit development, reverse engineering, and low-level programming techniques to verify that your code is airtight. Our experts measure your vulnerabilities by the severity of outcome and probability of compromise.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
       .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
       </style>
@@ -202,9 +202,10 @@ service_grey:
       c-0.4-0.9-0.6-1.9-0.5-2.9V62.9z"/>'
 
 # Service
-- title: Red Canari<br>365
-  content: 'A precisely planned simulation of covert cyber warfare operations, by sophisticated threat actors, to test organizational cyber resilience.'
-  url: '#'
+- title: Red<br>Teaming
+  summary: 'A precisely planned simulation of covert cyber warfare operations, by sophisticated threat actors, to test organizational cyber resilience.'
+  content: 'Red Teaming is a highly advanced and coordinated assessment that emulates the Tactics, Techniques, and Procedures (TTPs) of real-world threats from an adversarial perspective to train and measure the resiliency of the people, processes, and technology used to defend an environment. Red Canari’s proprietary Red Team methodology utilizes the MITRE ATT&CK framework to identify and validate real-world threats. Our experts authenticate a unique threat profile for your organization, create comprehensive playbooks that replicate the TTPs of your real-world adversaries, and unleash a coordinated team assault to compromise your systems and train your defenders.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
       .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
       </style>
@@ -232,12 +233,11 @@ service_grey:
 ####################################
 
 governance_title: 'Governance, Risk<br>&amp; Compliance<br>(GRC)'
-governance_description: 'Lorem Something dolor money salt that’s epsom. Lorem
-Something dolor money salt that’s epsom. Lorem Something
-dolor money salt that’s epsom.'
+governance_summary: 'Red Canari will provide your organization with a strategy to effectively manage your organization’s overall governance, enterprise risk management, and compliance with regulations.'
+governance_description: 'Red Canari will provide your organization with a strategy to effectively manage your organization’s overall governance, enterprise risk management, and compliance with regulations. Our GRC professionals have over 50 years combined experience in the industry consulting on the execution of comprehensive programmes for large and small organizations in both the public and private sectors. We offer our clients a full organizational review that includes a detailed threat and risk profile, an independent assessment of control and practice maturity, an analysis of organizational risks, and recommendations to address any gaps identified in your security. Contact one of our GRC professionals today to learn how we can deliver on your GRC priorities.'
 governance_image: 'assets/images/iso/grc.png'
 governance_btn_one_text: 'Learn More'
-governance_btn_one_link: '#'
+governance_btn_one_link: '#serviceModal'
 
 ####################################
 ######      service_governance Section      ######
@@ -247,8 +247,9 @@ service_governance:
 
 # Service
 - title: Red Canari<br>Resilience Program
-  content: 'Strategically aligns technology surveillance, risk management, cyber incident response and oversight responsibilities for day-to-day governance at your organization.'
-  url: '#'
+  summary: 'Red Canari established the cybersecurity framework, policies, and standards to secure a strategically important financial corporation that safeguards over $800 billion in deposits.'
+  content: 'Red Canari will strategically align technology, surveillance, risk management, cyber incident response and oversight responsibilities for day-to-day governance at your organization. We provide both a functional and substantive emphasis around how your key activities and data management practices are organized. Our professionals bring all their expertise together to provide your organization an all-encompassing service to strengthen resilience against attacks.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
 	    .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
     </style>
@@ -287,8 +288,9 @@ service_governance:
       c-0.7,1.4-1.8,2.6-3.1,3.4L61.4,88.8z"/>'
 # Service
 - title: Compliance<br>Assesment
-  content: 'Change is the only constant in the cyber risk environment. Compliance assessments are standards-based evaluations of your current security compliance posture.'
-  url: '#'
+  summary: 'Red Canari ensures that the critical infrastructure for one world’s top 10 largest hydroelectric power station operators is secure and compliant.'
+  content: 'Red Canari will provide your organization with standards-based evaluations of your current security compliance posture. Our hands-on understanding of the cyber threat landscape and technology informs our unique approach to conducting assessments. Our experts will provide your organization an expedited identification of interoperable mitigation measures for sustained risk reduction activities that achieve compliance.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
         .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
       </style>
@@ -315,8 +317,9 @@ service_governance:
 
 # Service
 - title: Threat and Risk<br>Assesment
-  content: 'Examine threats acting against existing security controls at your organization and determines risk, in terms of probability of compromise and impact severity.<br><br>'
-  url: '#'
+  summary: 'Red Canari implements military-grade risk management practices at a prestigious organization that assesses the credentials of thousands of doctors each year in over 80 countries.'
+  content: 'Red Canari will assess the threats acting against your organization’s existing security controls and determine the risk in terms of the probability of compromise and the severity of risk. Our experts deploy the learned best practices they have derived from decades of cross-sector experience to evaluate organizational risk management measures and approaches. Red Canari’s proposed approach to assessing maturity and risk is based on an amalgamation of applicable assessment methodologies, including NIST 800-30 Revision 1, ISO/IEC 27005, and the RCMP’s Harmonized Threat and Risk Assessment (HTRA) methodology.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
         .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
       </style>
@@ -356,12 +359,11 @@ service_governance:
 ####################################
 
 advisory_title: 'Red Canari<br>Advisory'
-advisory_description: 'Lorem Something dolor money salt that’s epsom. Lorem
-Something dolor money salt that’s epsom. Lorem Something
-dolor money salt that’s epsom.'
+advisory_summary: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest.'
+advisory_description: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest. Our team of experts will provide your organization strategic, tactical, and hands-on educational approach to equip you with all the tools you need to prepare for and overcome attacks by your adversaries. Contact one of our experts today to learn how we can advise your organization to defend and combat your threats.'
 advisory_image: 'assets/images/iso/advisory.png'
 advisory_btn_one_text: 'Learn More'
-advisory_btn_one_link: '#'
+advisory_btn_one_link: '#serviceModal'
 
 ####################################
 ######      service_advisory Section      ######
@@ -371,8 +373,9 @@ service_advisory:
 
 # Service
 - title: Red Canari<br>CISO
-  content: 'Red Canari CISO’s are security leaders that help your organization plan and execute a purpose-built security roadmap.<br><br>'
-  url: '#'
+  summary: 'Red Canari leaders bring both strategic and tactical leadership on security to a fast-growing healthcare software provider who helps thousands of medical practitioners complete millions of engagements.<br><br>'
+  content: 'Red Canari’s CISOs are security leaders that advise your organization to plan and execute a purpose-built security roadmap. Our CISOs are experienced leaders who comfortably report to Board of Directors and Executive Teams at large multi-national organizations. Red Canari leaders provide strategic advice about complex technology risk, compliance, and regulatory frameworks.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
 </style>
@@ -400,8 +403,9 @@ service_advisory:
 		C12.8,39.6,12.8,89.9,12.8,89.9z M56.9,89.8H54v3h2.8V89.8z M62.9,89.8H60v3h2.8V89.8z M68.9,89.8H66v3h2.8V89.8z"/>'
 # Service
 - title: Training<br>Programs
-  content: 'Maintain currency in key domains of cybersecurity at your organization. we carefully identify technical roles, knowledge gaps and training requirements.'
-  url: '#'
+  summary: 'Red Canari is actively involved in the training and development of our next generation of cybersecurity experts; we are a contributing member of a national-level training campaign funded by our country’s central bank.'
+  content: 'Red Canari training programs will help your organization maintain currently in the key domains of cyber security. We will create fully customized training programs that reflect your technical roles, identity your knowledge gap, and meet your unique training requirements. Our hands-on approach to education incorporates active learning methods where trainees learn by doing. Trainees will interact with their environment, adapt accordingly to real-life scenarios, and learn as they overcome challenges.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
 </style>
@@ -456,10 +460,11 @@ service_advisory:
 ####################################
 
 cloud_title: 'Cloud<br>Security'
-cloud_description: 'Lorem Something dolor money salt that’s epsom. Lorem Something dolor money salt that’s epsom. Lorem Something dolor money salt that’s epsom.'
+cloud_summary: 'Red Canari will provide your organization cloud security consulting services from exploitation and vulnerability. Our experts will support your organization whether it is transitioning to the cloud for the first time,...'
+cloud_description: 'Red Canari will provide your organization cloud security consulting services from exploitation and vulnerability. Our experts will support your organization whether it is transitioning to the cloud for the first time, or whether you require a support on your existing configurations. We also provide comprehensive support throughout the entire software development lifecycle, from the design and development phases, testing and operations, as well as operations and maintenance. Contact one of our experts today to learn how we can support your cloud transformation or advise you on the development lifecycle of your software.'
 cloud_image: 'assets/images/iso/secure-cloud.png'
 cloud_btn_one_text: 'Learn More'
-cloud_btn_one_link: '#'
+cloud_btn_one_link: '#serviceModal'
 
 ####################################
 ######      service_cloud Section      ######
@@ -469,8 +474,9 @@ service_cloud:
 
 # Service
 - title: Red Canari<br>DevOps
-  content: 'Builds in security and compliance to the entire software development lifecycle from design and development through testing and deployment to operations and maintenance.'
-  url: '#'
+  summary: 'Red Canari secures the development and operations on cloud platforms at one of Canada’s premier medical insurers, with a multi-billion-dollar investment portfolio.'
+  content: 'Red Canari DevOps builds in security and compliance to your organization’s entire software development lifecycle (SDLC) from design and development through to operations and maintenance. Our security professionals leverage their knowledge gained in software development and offensive security to minimize your risk and ensure compliance while your projects scales and accelerates your SDLC.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
         .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
       </style>
@@ -503,9 +509,10 @@ service_cloud:
 		c0-0.4,0-0.8,0-1.2s0-0.7,0-1.2v0c0-0.4-0.1-0.8-0.1-1.1l-0.3-2.5h-4.3c-0.1-0.3-0.2-0.5-0.3-0.8c-0.1-0.3-0.2-0.5-0.4-0.8l3-3
 		l-1.5-2c-1-1.2-2.1-2.3-3.3-3.3l-1-0.8V38H38.9v9.5h-9.5v55H66.9z M81.7,59.6v-9.2H32.2v9.2H81.7z"/>'
 # Service
-- title: Secure Cloud<br>Transformations
-  content: 'Secure cloud transformation assures security, privacy and compliance at your organization as you embrace cloud technologies in your business transformation journey.'
-  url: '#'
+- title: Secure Cloud<br>Transformation
+  summary: 'Red Canari secures the cloud initiatives at the #1 ranked pension plan among nearly 40 Canadians funds with market values above $1 billion.<br><br>'
+  content: 'Red Canari will work with your organization to assure security, privacy, and compliance with a secure cloud transformation to support your businesses’ embrace of cloud technologies. Our experts will leverage their innovative research on the technical vulnerabilities in the cloud control plane that manages and interacts with cloud services, to support your organization.'
+  url: '#serviceModal'
   svg: '<style type="text/css">
       .st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
     </style>
@@ -712,82 +719,66 @@ portfolios:
 ###########    Teams     ############
 #####################################
 
-team_title: our team
-team_description: 'Experts Team Member <br> Will Ready For Your Services'
+team_title: Connect With Us
+team_description: 'The Red Canari team is made up of seasoned security professionals. We’ve played pivotal roles in securing critical information systems across the public and private sectors.'
 
 teams:
 
-  - name: 'Roma De Suza'
-    title: 'FOUNDER'
-    image: 'assets/images/team/1.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: 'TONY KANJIRAPPALLY'
+    title: 'Managing Partner, CEO'
+    image: 'assets/images/team/tony.png'
+    linkedin: 'https://www.linkedin.com/in/tonykanjirappally'
 
-  - name: 'Jimonda Pilkao'
-    title: CEO
-    image: 'assets/images/team/2.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
 
-  - name: Troma Mikado
-    title: Business owner
-    image: 'assets/images/team/3.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: 'NADEEM DOUBA'
+    title: 'Managing Partner, CTO'
+    image: 'assets/images/team/nadeem.png'
+    linkedin: 'https://www.linkedin.com/in/nadeem-douba'
 
-  - name: Jumraz Linkon
-    title: PLANER
-    image: 'assets/images/team/4.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: CHRIS SUMNER
+    title: Director, Cyber Risk Management Programmes
+    image: 'assets/images/team/chris.png'
+    linkedin: 'https://www.linkedin.com/in/suggy'
 
-  - name: Umar Jaswal
-    title: MANAGER
-    image: 'assets/images/team/5.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: ANDREW FISK
+    title: Director, Cyber Risk Management Programmes
+    image: 'assets/images/team/andrew.png'
+    linkedin: 'https://www.linkedin.com/in/andrew-fisk-cyber-security-advisor/'
 
-  - name: Limonda Piklo
-    title: UI/UX DESIGNER
-    image: 'assets/images/team/6.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: DAN LESAGE
+    title: Director, Engineering
+    image: 'assets/images/team/dan.png'
+    linkedin: 'https://www.linkedin.com/in/danlesage/'
 
-  - name: Hekim Jalebi
-    title: WEB DEVELOPER
-    image: 'assets/images/team/7.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: ARUSHI GAUTAM
+    title: Human Resources & Administrative Associate
+    image: 'assets/images/team/arushi.png'
+    linkedin: 'https://www.linkedin.com/in/arushi-gautam-1171b0157'
 
-  - name: Juewl Desuza
-    title: APP DEVELOPER
-    image: 'assets/images/team/6.jpg'
-    facebook: '#'
-    twitter: '#'
-    behance: '#'
-    youtube: '#'
-    instagram: '#'
+  - name: DELON YOUNG
+    title: Account Executive
+    image: 'assets/images/team/delon.png'
+    linkedin: 'https://www.linkedin.com/in/delon-young'
+
+  - name: ANDREW KLAUS
+    title: Security Analyst
+    image: 'assets/images/team/andrewk.png'
+    linkedin: 'https://www.linkedin.com/in/klausandrew'
+
+  - name: AHMED SHAH
+    title: Security Analyst
+    image: 'assets/images/team/ahmed.png'
+    linkedin: 'https://www.linkedin.com/in/ahmedshahbeng'
+
+  - name: RUTVIK GAJJAR
+    title: Security Analyst
+    image: 'assets/images/team/rutvik.png'
+    linkedin: 'https://www.linkedin.com/in/rutvikbgajjar'
+
+  - name: HARSIMRAN KANWAR
+    title: Security Analyst
+    image: 'assets/images/team/harsimran.png'
+    linkedin: 'https://www.linkedin.com/in/harsimran-kanwar-a15338186'
 
 
 

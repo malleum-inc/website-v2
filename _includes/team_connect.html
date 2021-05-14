@@ -4,8 +4,8 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="section-title text-center">
-							<span>{{ site.team_title }}</span>
-							<h2>{{ site.team_description }}</h2>
+							<h2>{{ site.team_title }}</h2>
+							<p>{{ site.team_description }}</p>
 						</div>
 					</div>
 				</div>
@@ -17,11 +17,7 @@
 								<img src="{{ author.image | relative_url }}" alt="{{ author.name }}">
 								<div class="social-media">
 									<ul>
-										<li><a href="{{ author.facebook }}"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="{{ author.twitter }}"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="{{ author.behance }}"><i class="fa fa-behance"></i></a></li>
-										<li><a href="{{ author.youtube }}"><i class="fa fa-youtube-play"></i></a></li>
-										<li><a href="{{ author.instagram }}"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="{{ author.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</div>

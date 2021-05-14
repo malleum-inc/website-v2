@@ -16,10 +16,11 @@
                                 <h3>{{ service_advisory.title }}</h3>
                             </div>
                             <div class="approch-content">
-                                <p>{{ service_advisory.content }}</p>
+                                <p>{{ service_advisory.summary }}</p>
                             </div>
                             <div class="approch-btn">
-                                <a href="{{ service_advisory.url }}"><i class="fa fa-angle-double-right"></i></a>
+                                <a href="#" data-toggle="modal" data-target="{{service_advisory.url}}"
+                                data-title="{{ service_advisory.title }}" data-body="{{ service_advisory.content }}"><i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
