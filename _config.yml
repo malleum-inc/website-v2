@@ -361,7 +361,7 @@ Red Canari implements military-grade risk management practices at a prestigious 
 
 advisory_title: 'Red Canari<br>Advisory'
 advisory_summary: 'Red Canari provides a strategic, tactical, and hands-on approach that gives your organization all the tools to overcome your cybersecurity challenges.'
-advisory_description: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest. Our team of experts will provide your organization strategic, tactical, and hands-on educational approach to equip you with all the tools you need to prepare for and overcome attacks by your adversaries. Contact one of our experts today to learn how we can advise your organization to defend and combat your threats.'
+advisory_description: 'Red Canari’s Advisory Services will prepare your organization for cybersecurity threats. Our experts stand out in their field, having presented innovative cybersecurity research at the world’s largest security conferences including DEF CON, SecTOR, and HackFest. Our team of experts will provide your organization a strategic, tactical, and hands-on educational approach to equip you with all the tools you need to prepare for and overcome attacks by your adversaries. Contact one of our experts today to learn how we can advise your organization to defend and combat your threats.'
 advisory_image: 'assets/images/iso/advisory.png'
 advisory_btn_one_text: 'Learn More'
 advisory_btn_one_link: '#serviceModal'
@@ -407,7 +407,7 @@ Red Canari leaders bring both strategic and tactical leadership on security to a
 # Service
 - title: Training<br>Programs
   summary: 'Our experts examine your organization to carefully identify technical roles, understand your knowledge gaps, and recommend customized training requirements.'
-  content: 'Red Canari training programs will help your organization maintain currently in the key domains of cyber security. We will create fully customized training programs that reflect your technical roles, identity your knowledge gap, and meet your unique training requirements. Our hands-on approach to education incorporates active learning methods where trainees learn by doing. Trainees will interact with their environment, adapt accordingly to real-life scenarios, and learn as they overcome challenges.
+  content: 'Red Canari will help your organization maintain currency in the key domains of cybersecurity. We will create fully customized training programs that reflect your technical roles, identity your knowledge gap, and meet your unique training requirements. Our hands-on approach to education incorporates active learning methods where trainees learn by doing. Trainees will interact with their environment, adapt accordingly to real-life scenarios, and learn as they overcome challenges.
 <br><br>
 Red Canari is actively involved in the training and development of our next generation of cybersecurity experts; we are a contributing member of a national-level training campaign funded by our country’s central bank.'
   url: '#serviceModal'
