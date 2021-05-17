@@ -291,4 +291,40 @@
         modal.find('.modal-body').html(serviceBody)
     })
 
+    var $contact = $('#mc-embedded-subscribe-form');
+
+        var $contactButton = $('#mc-embedded-subscribe');
+        var $contactResult = $('#subscribe-result');
+
+        $contact.submit(function (event, $form) {
+            $contactButton.attr('disabled', true);
+            $contactButton.text('Sending...');
+            $.ajax({
+                type: $contact.attr('method'),
+                url: $contact.attr('action'),
+                data: $contact.serialize(),
+                cache: false,
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                error: function (err) {
+                    $contactResult.html('Could not connect to the registration server. Please try again later.');
+                },
+                success: function (data) {
+                    console.log(data)
+                    if (data.result === 'success') {
+                        $contactButton.text("Success!");
+                        $contactResult.html('Thank you for contacting us! A member of our team will reach out to you shortly.');
+                    } else {
+                        $contactButton.text("Try Again!");
+                        $contactButton.attr('disabled', false);
+                        $('#mce-EMAIL').css('borderColor', '#ff8282');
+                        $contactResult.css('color', '#ff8282');
+                        $contactResult.html(data.msg);
+                    }
+                }
+            });
+
+            event.preventDefault();
+        });
+
 })(jQuery);
