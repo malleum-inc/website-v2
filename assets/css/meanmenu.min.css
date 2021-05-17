@@ -140,11 +140,15 @@ a.meanmenu-reveal {
   display: none !important;
 }
 .mean-container .mean-bar::after {
-  color: #ffffff;
-  content: 'REDCANARI';
-  font-size: 21px;
-  left: 5%;
-  position: absolute;
-  top: 8px;
-  font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    content: '';
+    left: 5%;
+    position: absolute;
+    height: 29px;
+    background-repeat: no-repeat;
+    top: 8px;
+    background: url(/website-v2/assets/images/logo.png);
+    background-size: 255px 29px;
+    background-repeat: no-repeat;
+    width: 255px;
 }
